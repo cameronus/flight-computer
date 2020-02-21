@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name flight-computer)(type Legacy)(uri ${KIPRJMOD}/flight-computer.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri /Users/cameron/Desktop/Dev/flight-computer/teensy.lib)(options "")(descr ""))
 )
