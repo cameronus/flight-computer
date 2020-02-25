@@ -126,23 +126,23 @@ F 3 "~" H 1500 5950 50  0001 C CNN
 	1    1500 5950
 	1    0    0    -1  
 $EndComp
-Text Label 2400 1250 2    50   ~ 0
+Text Label 2000 1300 2    50   ~ 0
 VIN
-Text Label 1450 1400 0    50   ~ 0
+Text Label 1450 1300 0    50   ~ 0
 VBEC
 Wire Wire Line
 	1300 4550 1150 4550
 Text Label 1150 4550 0    50   ~ 0
 VBEC
 $Comp
-L Device:D_Schottky_Small_ALT D2
+L Device:D_Schottky_Small_ALT D1
 U 1 1 5E4B50E3
-P 1800 1400
-F 0 "D2" H 1800 1600 50  0000 C CNN
-F 1 "SS14FL" H 1900 1500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" V 1800 1400 50  0001 C CNN
-F 3 "~" V 1800 1400 50  0001 C CNN
-	1    1800 1400
+P 1750 1300
+F 0 "D1" H 1750 1500 50  0000 C CNN
+F 1 "SS14FL" H 1850 1400 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" V 1750 1300 50  0001 C CNN
+F 3 "~" V 1750 1300 50  0001 C CNN
+	1    1750 1300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -174,10 +174,10 @@ F 3 "~" H 7900 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D5
+L Device:LED D4
 U 1 1 5E5B9117
 P 8150 4900
-F 0 "D5" H 8150 5050 50  0000 C CNN
+F 0 "D4" H 8150 5050 50  0000 C CNN
 F 1 "BLUE" H 8150 5150 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8150 4900 50  0001 C CNN
 F 3 "~" H 8150 4900 50  0001 C CNN
@@ -185,10 +185,10 @@ F 3 "~" H 8150 4900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED D3
 U 1 1 5E5B9CB0
 P 8150 4550
-F 0 "D4" H 8150 4700 50  0000 C CNN
+F 0 "D3" H 8150 4700 50  0000 C CNN
 F 1 "RED" H 8150 4800 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8150 4550 50  0001 C CNN
 F 3 "~" H 8150 4550 50  0001 C CNN
@@ -308,8 +308,6 @@ Wire Wire Line
 	1300 5850 1100 5850
 Text Label 1100 5850 0    50   ~ 0
 SER4
-Wire Wire Line
-	1900 1400 2050 1400
 $Comp
 L flight-computer:TMP102 U1
 U 1 1 5E68476E
@@ -478,25 +476,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 3700 8900 3700
 Wire Wire Line
-	2050 1100 2050 1250
-Wire Wire Line
-	1700 1100 1450 1100
-$Comp
-L Device:D_Schottky_Small_ALT D1
-U 1 1 5E6430D3
-P 1800 1100
-F 0 "D1" H 1800 1300 50  0000 C CNN
-F 1 "SS14FL" H 1900 1200 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" V 1800 1100 50  0001 C CNN
-F 3 "~" V 1800 1100 50  0001 C CNN
-	1    1800 1100
-	-1   0    0    1   
-$EndComp
-Text Label 1450 1100 0    50   ~ 0
-VEXT
-Wire Wire Line
-	2050 1100 1900 1100
-Wire Wire Line
 	7900 3900 7750 3900
 Text Label 7750 3900 0    50   ~ 0
 VIN
@@ -518,11 +497,6 @@ Text Notes 1400 2250 0    50   ~ 0
 Temperature Sensor
 Text Notes 7900 1050 0    50   ~ 0
 Teensy 3.6 Microcontroller
-Wire Wire Line
-	2050 1250 2400 1250
-Connection ~ 2050 1250
-Wire Wire Line
-	2050 1250 2050 1400
 $Comp
 L power:+3V3 #PWR034
 U 1 1 5E5BE73C
@@ -571,7 +545,7 @@ F 3 "~" H 2650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2300 5400 0    50   ~ 0
-VEXT
+VBEC
 Wire Wire Line
 	2450 5400 2300 5400
 Wire Wire Line
@@ -732,7 +706,7 @@ F 3 "" H 4750 1950 50  0001 C CNN
 	1    4750 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 1500 950  0    50   ~ 0
+Text Notes 1500 1150 0    50   ~ 0
 Power Input
 Text Notes 5250 1150 0    50   ~ 0
 Pressure Sensor
@@ -1317,7 +1291,7 @@ NoConn ~ 8900 1600
 NoConn ~ 8900 1400
 NoConn ~ 8900 1500
 Wire Wire Line
-	1700 1400 1450 1400
+	1650 1300 1450 1300
 Wire Wire Line
 	4350 1950 4750 1950
 Wire Wire Line
@@ -1345,10 +1319,10 @@ F 3 "~" H 6550 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D2
 U 1 1 5E6E20C4
 P 6800 4750
-F 0 "D3" H 6800 4900 50  0000 C CNN
+F 0 "D2" H 6800 4900 50  0000 C CNN
 F 1 "GREEN" H 6800 5000 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6800 4750 50  0001 C CNN
 F 3 "~" H 6800 4750 50  0001 C CNN
@@ -1515,4 +1489,6 @@ Wire Wire Line
 	2450 4550 2150 4550
 Text Label 2150 4550 0    50   ~ 0
 D26
+Wire Wire Line
+	1850 1300 2000 1300
 $EndSCHEMATC
