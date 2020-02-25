@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 50)
@@ -541,7 +541,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E54CC7F)
+  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E54D1D4)
     (at 129.54 71.63 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -575,7 +575,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E54CC55)
+  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E54D1AA)
     (at 127 71.63 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -610,18 +610,18 @@
   )
 
   (module Diode_SMD:D_SOD-123F (layer F.Cu) (tedit 587F7769) (tstamp 5E5496C0)
-    (at 87 102.5 180)
+    (at 132 78.5 270)
     (descr D_SOD-123F)
     (tags D_SOD-123F)
     (path /5E6430D3)
     (attr smd)
-    (fp_text reference D1 (at -0.127 -1.905) (layer F.SilkS)
+    (fp_text reference D1 (at -0.127 -1.905 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SS14FL (at 0 2.1) (layer F.Fab)
+    (fp_text value SS14FL (at 0 2.1 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.127 -1.905) (layer F.Fab)
+    (fp_text user %R (at -0.127 -1.905 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -1) (end -2.2 1) (layer F.SilkS) (width 0.12))
@@ -642,9 +642,9 @@
     (fp_line (start -2.2 -1.15) (end -2.2 1.15) (layer F.CrtYd) (width 0.05))
     (fp_line (start -2.2 1) (end 1.65 1) (layer F.SilkS) (width 0.12))
     (fp_line (start -2.2 -1) (end 1.65 -1) (layer F.SilkS) (width 0.12))
-    (pad 1 smd rect (at -1.4 0 180) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.4 0 270) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
       (net 8 /VIN))
-    (pad 2 smd rect (at 1.4 0 180) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.4 0 270) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask)
       (net 9 /VEXT))
     (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123F.wrl
       (at (xyz 0 0 0))
@@ -1022,7 +1022,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 5E546E3F)
-    (at 126 78)
+    (at 121 77.5)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
     (path /5E76E70D)
@@ -1073,7 +1073,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 5E549678)
-    (at 122 78)
+    (at 129 77.5)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5E76B48E)
@@ -1161,7 +1161,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 5E546E8B)
-    (at 130.5 78)
+    (at 125 77.5)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
     (path /5E7D9FB5)
@@ -1952,8 +1952,8 @@
     )
   )
 
-  (module Package_LGA:LGA-28_5.2x3.8mm_P0.5mm (layer F.Cu) (tedit 5A02F217) (tstamp 5E54CF64)
-    (at 127.25 64.24 180)
+  (module Package_LGA:LGA-28_5.2x3.8mm_P0.5mm (layer F.Cu) (tedit 5A02F217) (tstamp 5E54D466)
+    (at 127 64 180)
     (descr "LGA 28 5.2x3.8mm Pitch 0.5mm")
     (tags "LGA 28 5.2x3.8mm Pitch 0.5mm")
     (path /5E6F18B3)
@@ -2091,7 +2091,7 @@
     )
   )
 
-  (module flight-computer:TEENSY36 (layer F.Cu) (tedit 5E544572) (tstamp 5E54BF80)
+  (module flight-computer:TEENSY36 (layer F.Cu) (tedit 5E544572) (tstamp 5E54D5AD)
     (at 109 81 270)
     (path /5E53E605)
     (fp_text reference U4 (at 0 -10.16 180) (layer F.SilkS)
@@ -2300,6 +2300,9 @@
     )
   )
 
+  (gr_circle (center 126.5 98.5) (end 128.5 98.5) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 126.5 63.5) (end 128.5 63.5) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 91.5 98.5) (end 93.5 98.5) (layer Edge.Cuts) (width 0.1))
   (gr_circle (center 91.5 63.5) (end 93.5 63.5) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 134 58.5) (end 134 103.5) (layer Edge.Cuts) (width 0.1) (tstamp 5E54CA0B))
   (gr_line (start 84 58.5) (end 84 103.5) (layer Edge.Cuts) (width 0.1))
