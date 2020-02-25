@@ -21,6 +21,7 @@ F 0 "U3" H 5550 1950 50  0000 C CNN
 F 1 "MPL3115A2" H 5550 1850 50  0000 C CNN
 F 2 "Package_LGA:LGA-8_3x5mm_P1.25mm" H 5550 1600 50  0001 C CNN
 F 3 "" H 5550 1600 50  0001 C CNN
+F 4 "MPL3115A2" H 5550 1600 50  0001 C CNN "MPN"
 	1    5550 1600
 	1    0    0    -1  
 $EndComp
@@ -76,7 +77,7 @@ U 1 1 5E39C8A0
 P 1500 4550
 F 0 "J1" H 1580 4592 50  0000 L CNN
 F 1 "Throttle/BEC" H 1580 4501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1500 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 4550 50  0001 C CNN
 F 3 "~" H 1500 4550 50  0001 C CNN
 	1    1500 4550
 	1    0    0    -1  
@@ -87,7 +88,7 @@ U 1 1 5E39D4BF
 P 1500 4900
 F 0 "J2" H 1580 4942 50  0000 L CNN
 F 1 "Servo 1" H 1580 4851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1500 4900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 4900 50  0001 C CNN
 F 3 "~" H 1500 4900 50  0001 C CNN
 	1    1500 4900
 	1    0    0    -1  
@@ -98,7 +99,7 @@ U 1 1 5E39D87A
 P 1500 5250
 F 0 "J3" H 1580 5292 50  0000 L CNN
 F 1 "Servo 2" H 1580 5201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1500 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 5250 50  0001 C CNN
 F 3 "~" H 1500 5250 50  0001 C CNN
 	1    1500 5250
 	1    0    0    -1  
@@ -109,7 +110,7 @@ U 1 1 5E39DF96
 P 1500 5600
 F 0 "J4" H 1580 5642 50  0000 L CNN
 F 1 "Servo 3" H 1580 5551 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1500 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 5600 50  0001 C CNN
 F 3 "~" H 1500 5600 50  0001 C CNN
 	1    1500 5600
 	1    0    0    -1  
@@ -120,7 +121,7 @@ U 1 1 5E39E4FA
 P 1500 5950
 F 0 "J5" H 1580 5992 50  0000 L CNN
 F 1 "Servo 4" H 1580 5901 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1500 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 5950 50  0001 C CNN
 F 3 "~" H 1500 5950 50  0001 C CNN
 	1    1500 5950
 	1    0    0    -1  
@@ -317,6 +318,7 @@ F 0 "U1" H 1750 3000 50  0000 C CNN
 F 1 "TMP102" H 1750 2900 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-563" H 1450 2700 50  0001 C CNN
 F 3 "" H 1450 2700 50  0001 C CNN
+F 4 "TMP102AIDRLR" H 1750 2700 50  0001 C CNN "MPN"
 	1    1750 2700
 	1    0    0    -1  
 $EndComp
@@ -563,7 +565,7 @@ U 1 1 5E5AA020
 P 2650 5950
 F 0 "J8" H 2730 5992 50  0000 L CNN
 F 1 "Ext" H 2730 5901 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2650 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2650 5950 50  0001 C CNN
 F 3 "~" H 2650 5950 50  0001 C CNN
 	1    2650 5950
 	1    0    0    -1  
@@ -748,6 +750,7 @@ F 0 "U2" H 4900 2950 50  0000 C CNN
 F 1 "BNO080" H 4900 2850 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 4900 2950 50  0001 C CNN
 F 3 "" H 4900 2950 50  0001 C CNN
+F 4 "BNO080" H 4900 2950 50  0001 C CNN "MPN"
 	1    4900 2950
 	1    0    0    -1  
 $EndComp
@@ -893,8 +896,9 @@ U 1 1 5E72F93D
 P 5700 3800
 F 0 "Y1" V 5650 3900 50  0000 L CNN
 F 1 "32.768kHz" V 5750 3900 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 5700 3800 50  0001 C CNN
+F 2 "flight-computer:ABS07" H 5700 3800 50  0001 C CNN
 F 3 "~" H 5700 3800 50  0001 C CNN
+F 4 "ABS07-32.768KHZ-1-T" V 5700 3800 50  0001 C CNN "MPN"
 	1    5700 3800
 	0    1    1    0   
 $EndComp
@@ -1381,7 +1385,7 @@ U 1 1 5E76B48E
 P 2650 5500
 F 0 "J7" H 2730 5542 50  0000 L CNN
 F 1 "Power" H 2730 5451 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2650 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2650 5500 50  0001 C CNN
 F 3 "~" H 2650 5500 50  0001 C CNN
 	1    2650 5500
 	1    0    0    -1  
@@ -1414,7 +1418,7 @@ U 1 1 5E76E70D
 P 2650 4850
 F 0 "J6" H 2730 4892 50  0000 L CNN
 F 1 "Breakout1" H 2730 4801 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2650 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 2650 4850 50  0001 C CNN
 F 3 "~" H 2650 4850 50  0001 C CNN
 	1    2650 4850
 	1    0    0    -1  
@@ -1460,7 +1464,7 @@ U 1 1 5E7D9FB5
 P 3850 5350
 F 0 "J9" H 3930 5392 50  0000 L CNN
 F 1 "Breakout2" H 3930 5301 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3850 5350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3850 5350 50  0001 C CNN
 F 3 "~" H 3850 5350 50  0001 C CNN
 	1    3850 5350
 	1    0    0    -1  
