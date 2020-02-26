@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 49)
+    (drawings 50)
     (tracks 369)
     (zones 0)
     (modules 53)
@@ -464,7 +464,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 3.5 -3.25) (layer F.SilkS) hide
+    (fp_text reference MH2 (at 3.5 -3.25) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -483,7 +483,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+    (fp_text reference MH1 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -502,7 +502,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+    (fp_text reference MH3 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -521,7 +521,7 @@
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+    (fp_text reference MH4 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
@@ -2323,6 +2323,9 @@
     )
   )
 
+  (gr_text V1 (at 95.2 58.6) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text Loki (at 107 54.6) (layer F.Cu) (tstamp 5E567678)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left))
   )
